@@ -27,7 +27,7 @@ A simple yet elegant web application that allows users to change the background 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/color-scheme-switcher.git
+   git clone https://github.com/0xAupy/Background-Color-Changer.git
    ```
 2. Open `index.html` in your browser or use a local development server.
 
