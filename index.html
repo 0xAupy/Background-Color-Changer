@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>JavaScript Background Color Switcher</title>
+</head>
+
+<body>
+    <div class="canvas">
+        <div class="header">
+            <h1>Color Scheme Switcher</h1>
+            <p class="subtitle">Select a color to transform the page</p>
+        </div>
+
+        <div class="color-palette">
+            <div class="color-option">
+                <span class="button" id="grey" title="Grey"></span>
+                <p class="color-name">Grey</p>
+            </div>
+            <div class="color-option">
+                <span class="button" id="purple" title="Purple"></span>
+                <p class="color-name">Purple</p>
+            </div>
+            <div class="color-option">
+                <span class="button" id="blue" title="Blue"></span>
+                <p class="color-name">Blue</p>
+            </div>
+            <div class="color-option">
+                <span class="button" id="yellow" title="Yellow"></span>
+                <p class="color-name">Yellow</p>
+            </div>
+            <div class="color-option">
+                <span class="button" id="teal" title="Teal"></span>
+                <p class="color-name">Teal</p>
+            </div>
+            <div class="color-option">
+                <span class="button" id="coral" title="Coral"></span>
+                <p class="color-name">Coral</p>
+            </div>
+        </div>
+
+        <div class="instruction-panel">
+            <h2>How it works</h2>
+            <p>Click on any color above to change the background of the page</p>
+            <p>Try different colors to find your favorite theme!</p>
+            <div class="current-color">
+                <p>Current color: <span id="color-display">None selected</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
